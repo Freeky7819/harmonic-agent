@@ -56,6 +56,8 @@ for t in range(1, 50):
 ## 🖼️ Visual Results
 
 ### Harmonic Damping in Action
+
+![Open In Colab] https://colab.research.google.com/drive/1zt4YUAnMuDl17wcqHdsvKoaSUaO01ZHO?usp=sharing
 ![Drift Visualization](drift_visualization.png)
 
 ### Comparison with Other Methods
