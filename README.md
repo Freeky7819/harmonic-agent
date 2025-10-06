@@ -53,4 +53,12 @@ for t in range(1, 50):
     D = 1 - cosine_similarity(B.reshape(1,-1), B0.reshape(1,-1))[0,0]
     drift.append(D)
 
+## 🖼️ Visual Results
+
+### Harmonic Damping in Action
+![Drift Visualization](drift_visualization.png)
+
+### Comparison with Other Methods
+![Comparison](comparison.png)
+
 print(f"Mean drift: {np.mean(drift):.4f}, Variance: {np.var(drift):.6f}")
